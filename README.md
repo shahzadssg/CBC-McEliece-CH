@@ -1,6 +1,6 @@
 # CBC-McEliece-CH
 
-Reference implementation of the **CBC-McEliece-CH** chameleon hash and the **CBC-MEL-San** post-quantum sanitizable signature scheme it lifts to. This is the artifact accompanying the ACSAC 2026 paper _"CBC-McEliece-CH: Post-Quantum Sanitizable Signatures from Code-Based Chameleon Hashing via Cipher-Block Chaining"_ (under double-blind review).
+Reference implementation of the **CBC-McEliece-CH** chameleon hash and the **CBC-MEL-San** post-quantum sanitizable signature scheme it lifts to. This is the artifact accompanying the CANS 2026 paper _"CBC-McEliece-CH: Post-Quantum Sanitizable Signatures from Code-Based Chameleon Hashing via Cipher-Block Chaining"_ (under double-blind review).
 
 The construction iterates a derandomized Classic McEliece primitive in cipher-block-chaining mode, splitting each ciphertext into a length-$k$ left half $L$ and a length-$\ell = n - k$ right half $R$. Both halves feed the next stage, with $R$ extended to $k$ bits by a length-regular pad. Each chained step after the first absorbs two message blocks, halving the McEliece-call count. Sanitization invokes a single Patterson decode regardless of message length.
 
