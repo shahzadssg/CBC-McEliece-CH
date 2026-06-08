@@ -155,13 +155,13 @@ For Windows, see `windows-liboqs/README.md` for the cross-compilation recipe use
 
 ## Citation
 
-This paper is currently under double-blind review at ACSAC 2026. Citation information will be added on acceptance. For now:
+This paper is currently under double-blind review at CANS 2026. Citation information will be added on acceptance. For now:
 
 ```bibtex
 @misc{cbc-mceliece-ch-2026,
   title  = {CBC-McEliece-CH: Post-Quantum Sanitizable Signatures from
             Code-Based Chameleon Hashing via Cipher-Block Chaining},
-  note   = {Under double-blind review at ACSAC 2026},
+  note   = {Under double-blind review at CANS 2026},
   year   = {2026},
 }
 ```
